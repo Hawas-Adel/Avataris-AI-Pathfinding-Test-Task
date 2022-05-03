@@ -9,8 +9,11 @@ public class CarCollisionDetection : MonoBehaviour
 	public Vector3 CarBoundarySize;
 	public Vector3 CarBoundaryCenterOffset;
 
+	[Space]
 	public uint PredictedPointsCount = 3;
 	public float PredictedPointsCountSpeedMultiplier;
+
+	[Space]
 	public LayerMask ObstacleLayers;
 	[Min(0)] public float GroundCheckRaycastLength = 1;
 
