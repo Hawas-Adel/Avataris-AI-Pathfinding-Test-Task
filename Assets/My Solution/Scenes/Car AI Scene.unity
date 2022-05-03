@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Anchor: {fileID: 0}
   m_AutoAnchor: 0
   m_AutoAnchorBone: 10
-  m_AnchorOffset: {x: 0, y: 1.8, z: -4}
+  m_AnchorOffset: {x: 0, y: 1.8, z: 0}
   m_ViewTypeFullName: Opsive.UltimateCharacterController.ThirdPersonController.Camera.ViewTypes.Adventure
   m_FirstPersonViewTypeFullName: 
   m_ThirdPersonViewTypeFullName: Opsive.UltimateCharacterController.ThirdPersonController.Camera.ViewTypes.Adventure
@@ -2111,7 +2111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb9fa90a8b460e940bd94dfccc7f42ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarStateUpdateTimer: 3
+  CarStateUpdateTimer: 1.5
 --- !u!114 &1480393037
 MonoBehaviour:
   m_ObjectHideFlags: 0
